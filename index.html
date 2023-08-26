@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+
+        <div class="list">
+            <i class="fa-solid fa-indian-rupee-sign  fa-2xl" style="color: #251d18"></i>
+            <h2 class="title">My Currency <br>Converter</h2>
+<ul>
+    <li><a href="#" target="_blank">Home</a> </li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+
+</ul>
+        </div>
+    </nav>
+    <main>
+        <div class="main">
+<div id="cur">
+  
+    <form action="/action.php" method="post">
+        <H1>Choose Currency to Convert</H1> 
+        <select name="currency" id="country">
+
+            <option value="INR">INDIAN RUPEE</option>
+            <option value="USD">US DOLLOR</option>
+            <option value="EUR">EURO</option>
+        </select>
+        <input type="number" name="number" id="number" placeholder="Enter Amount Here" min="0">
+        
+        <input type="submit" value="Convert" id="sumbit" />
+      
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </div>
+    </form>
+    
+</div>
+<div id="img">
+    <img src="cur.jpg" alt="" srcset="">
+</div>
+
+</div>
+        </div>
+    </main>
+    <footer>
+<H3>
+    Copyright @copy LAKSHAY BANSAL   
+</H3>
+    </footer>
+    <script src="https://kit.fontawesome.com/8c9b0ad18f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
